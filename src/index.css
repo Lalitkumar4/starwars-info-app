@@ -1,0 +1,91 @@
+:root {
+  --primary-text-color: #ffe300;
+  --secondary-text-color: #ddd;
+  --primary-bg-color: #272b30;
+  --secondary-bg-color: #1c1e22;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: var(--primary-bg-color);
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1 {
+  color: var(--primary-text-color);
+  font-size: 4em;
+  letter-spacing: 2px;
+}
+
+button {
+  border-radius: 20px;
+  border: 2px solid var(--secondary-text-color);
+  margin: 10px;
+  background: transparent;
+  padding: 10px;
+  color: var(--secondary-text-color);
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: var(--primary-text-color);
+}
+
+button:focus,
+button:focus-visible {
+  border-color: var(--primary-text-color);
+}
+
+.content {
+  text-align: left;
+}
+
+.card {
+  padding: 8px 16px;
+  background: var(--secondary-bg-color);
+  margin: 16px 0;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card p {
+  margin: 6px 0;
+  color: #999;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: var(--primary-text-color);
+}
+
+.card:hover {
+  scale: 1.02;
+}
+
+button:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
+.notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.notfound h1 {
+  margin: 0;
+}
