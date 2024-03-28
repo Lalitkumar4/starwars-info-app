@@ -4,6 +4,8 @@ A React app that displays information about Star Wars films using the [SWAPI](ht
 
 This project is also a practice project for `React Query`.
 
+[Live Demo](https://starwars-info-d5c7ac.netlify.app/)
+
 ## Technologies used
 - `React.js`
 - `React Query`
